@@ -1,0 +1,34 @@
+GET http://localhost:5000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTYwNzE2ODQwNH0.3i1OPHxg-vMY9selrP99iCUN8NqHwrtmblbKQnH0Wiw
+
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "userName": "baran",
+  "nickName":"basaran"
+}
+
+
+
+###
+
+# DELETE http://localhost:5000/logout     //passive
+# Content-Type: application/json
+
+# {
+#   "token": "RT6wszuCeFLwC_6ksmNMIELxiC5s-uRivfRxyZof5ag"
+# }
+
+###
+
+# POST http://localhost:5000/token      //passive 
+# Content-Type: application/json
+
+# {
+#   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNTY4NzU5OTIyfQ.RT6wszuCeFLwC_6ksmNMIELxiC5s-uRivfRxyZof5ag"
+# }
+
